@@ -7,7 +7,8 @@ function App() {
       <span className = "title-bar">
         <button
         type= "button"
-        className = "btn btn-primary">
+        className = "btn btn-primary"
+        onCLick = {this.getLists}>
 Get Lists
         </button>
       </span>
